@@ -1,4 +1,4 @@
-FROM oven/bun
+FROM oven/bun:1.0
 
 ADD index.ts index.ts
 ADD package.json package.json
