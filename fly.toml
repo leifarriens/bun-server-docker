@@ -1,0 +1,15 @@
+# fly.toml app configuration file generated for falling-dew-9605 on 2023-09-14T01:05:01+02:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "falling-dew-9605"
+primary_region = "cdg"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  processes = ["app"]
