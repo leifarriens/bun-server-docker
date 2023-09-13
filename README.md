@@ -25,3 +25,13 @@ Run container:
 ```sh
 docker run -p 8080:3000 bun-server-docker
 ```
+
+## Deploy
+
+Run fly deploy:
+
+```sh
+~/.fly/bin/flyctl deploy
+```
+
+
